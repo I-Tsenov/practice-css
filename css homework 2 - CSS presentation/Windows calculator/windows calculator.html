@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="masterContainer">
+        <header>
+            <nav>
+                <span><img src="images/calculator_logo.png" alt="calculator_logo" /></span>
+                <span id="title">Calculator</span>
+                <span id="windowControls"><img src="images/controls.png" alt="window controls" /></span>
+                <ul>
+                    <li>View</li>
+                    <li>Edit</li>
+                    <li>Help</li>
+                </ul>
+            </nav>
+        </header>
+        <main class="mainContainer">
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" class="outputTotal" value="8854455">
+                    </td>
+                </tr>
+                <tr>
+                    <table class="bitTable">
+                        <tr>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                        </tr>
+                        <tr>
+                            <td id="bit63" class="bitsClr" colspan="4">63</td>
+                            <td id="bit47" class="bitsClr" colspan="3">47</td>
+                            <td id="bit32" class="bitsClr">32</td>
+                        </tr>
+                        <tr>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>1000</td>
+                            <td>0111</td>
+                            <td>0001</td>
+                            <td>1011</td>
+                            <td>1011</td>
+                            <td>0111</td>
+                        </tr>
+                        <tr>
+                            <td id="bit31" class="bitsClr" colspan="4">31</td>
+                            <td id="bit15" class="bitsClr" colspan="3">15</td>
+                            <td id="bit0" class="bitsClr">0</td>
+                        </tr>
+                    </table>
+                </tr>
+                <tr>
+                    <table class="mainTable">
+                        <tr>
+                            <td class="inputRadio" colspan="2" rowspan="3">
+                                <input type="radio" name="typeNum" value="Hex">
+                                <label for="Hex">Hex</label><br>
+                                <input type="radio" name="typeNum" value="Dec">
+                                <label for="Dec">Dec</label><br>
+                                <input type="radio" name="typeNum" value="Oct">
+                                <label for="Oct">Oct</label><br>
+                                <input type="radio" name="typeNum" value="Bin">
+                                <label for="Bin">Bin</label></td>
+                            <td></td>
+                            <td class="ironToBrass">Mod</td>
+                            <td>A</td>
+                            <td>MC</td>
+                            <td>MR</td>
+                            <td>MS</td>
+                            <td>M+</td>
+                            <td>M-</td>
+                        </tr>
+                        <tr>
+                            <td class="ironToBrass">(</td>
+                            <td class="ironToBrass">)</td>
+                            <td>B</td>
+                            <td class="ironToBrass">&larr;</td>
+                            <td class="ironToBrass">CE</td>
+                            <td class="ironToBrass">C</td>
+                            <td class="ironToBrass">&plusmn;</td>
+                            <td>&radic;</td>
+                        </tr>
+                        <tr>
+                            <td class="ironToBrass">RoL</td>
+                            <td class="ironToBrass">RoR</td>
+                            <td>C</td>
+                            <td class="ironToBrass">7</td>
+                            <td class="ironToBrass">8</td>
+                            <td class="ironToBrass">9</td>
+                            <td class="ironToBrass">/</td>
+                            <td>%</td>
+
+                        </tr>
+                        <tr>
+                            <td class="inputRadio" colspan="2" rowspan="3">
+                                <input type="radio" name="typeWord" value="Qword">
+                                <label for="Qword">Qword</label><br>
+                                <input type="radio" name="typeWord" value="Dword">
+                                <label for="Dword">Dword</label><br>
+                                <input type="radio" name="typeWord" value="Word">
+                                <label for="Word">Word</label><br>
+                                <input type="radio" name="typeWord" value="Byte">
+                                <label for="Byte">Byte</label>
+                            </td>
+                            <td class="ironToBrass">Or</td>
+                            <td class="ironToBrass">XoR</td>
+                            <td>D</td>
+                            <td class="ironToBrass">4</td>
+                            <td class="ironToBrass">5</td>
+                            <td class="ironToBrass">6</td>
+                            <td class="ironToBrass">*</td>
+                            <td>1/x</td>
+                        </tr>
+                        <tr>
+                            <td class="ironToBrass">Lsh</td>
+                            <td class="ironToBrass">Rsh</td>
+                            <td>E</td>
+                            <td class="ironToBrass">1</td>
+                            <td class="ironToBrass">2</td>
+                            <td class="ironToBrass">3</td>
+                            <td class="ironToBrass">-</td>
+                            <td class="ironToBrass"id="equal" rowspan="2">=</td>
+                        </tr>
+                        <tr>
+                            <td class="ironToBrass">Not</td>
+                            <td class="ironToBrass">And</td>
+                            <td>F</td>
+                            <td class="ironToBrass" colspan="2">0</td>
+                            <td>.</td>
+                            <td class="ironToBrass">+</td>
+
+                        </tr>
+                    </table>
+            </table>
+        </main>
+    </div>
+</body>
+
+</html>

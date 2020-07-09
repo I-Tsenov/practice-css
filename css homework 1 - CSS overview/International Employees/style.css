@@ -1,0 +1,67 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px 15px 5px 10px;
+    text-align: start;
+    font-weight: 100;
+    font-size: 15px;
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+th {
+    color: white;
+    background-color: rgb(86, 185, 6);
+}
+
+tbody tr:nth-child(2n) {
+    background-color: rgb(236, 236, 216);
+}
+
+#germanyFlag:before {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1280px-Flag_of_Germany.svg.png);
+    background-size: contain;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 1.5em;
+    height: 0.9em
+}
+#germanyFlag:before {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1280px-Flag_of_Germany.svg.png);
+    background-size: contain;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 1.5em;
+    height: 0.9em
+}
+
+
+.mexicoFlag:before {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Mexico.png);
+    background-size: contain;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 1.5em;
+    height: 0.9em
+}
+
+#ukFlag:before {
+    background-image: url(https://wiki2.railml.org/images/b/b8/UK_flag.png);
+    background-size: contain;
+    background-color: white;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 1.38em;
+    height: 0.9em
+}
